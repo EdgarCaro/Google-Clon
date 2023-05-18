@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(33, 33, 44);
+    background-color: rgb(32, 33, 36);
     font-family: 'Roboto', serif;
     display: flex;
     flex-direction: column;
@@ -40,12 +40,12 @@ main{
 
 input{
     width: 600px;
-    height: 30px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 15px;
-    border-radius: 15px;
+    height: 40px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 20px;
+    border-radius: 25px;
     border: 1.5px solid #ffffff;
-    background-color: rgb(33, 33, 44);
+    background-color: rgb(32, 33, 36);
 }
 
 button{
@@ -53,9 +53,13 @@ button{
     height: 25px;
     border-radius: 5px;
     border: 0;
-    background-color: rgb(78, 78, 105);
+    background-color: rgb(48, 49, 52);
+}
+
+.botones{
+    padding-bottom: 200px;
 }
 
 footer{
-    background-color: rgb(11, 11, 26);
+    background-color: rgb(23, 23, 23);
 }
