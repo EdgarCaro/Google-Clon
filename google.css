@@ -8,6 +8,13 @@
 body{
     background-color: rgb(33, 33, 44);
     font-family: 'Roboto', serif;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "empty"
+    "main"
+    "empty"
+    "footer1 . footer2";
 }
 
 footer{
